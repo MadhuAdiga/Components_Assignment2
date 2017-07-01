@@ -15,5 +15,5 @@ import { Component } from '@angular/core';//Import decorator dependencies
 export class AppComponent  { 
   header = 'Scooby Doo'; //define 3 variables which hold data for the modal header, body and footer
   body = 'Scooby-Doo is an American animated cartoon franchise, comprising several animated television series produced from 1969 to the present day. '; //define a variable content which holds a string
-  footer = 'Scooby-Dooby-Doo, Where Are You?';
+  footer = 'Scooby-Dooby-Doooo';
   }

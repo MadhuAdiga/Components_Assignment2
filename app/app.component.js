@@ -13,7 +13,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.header = 'Scooby Doo'; //define 3 variables which hold data for the modal header, body and footer
         this.body = 'Scooby-Doo is an American animated cartoon franchise, comprising several animated television series produced from 1969 to the present day. '; //define a variable content which holds a string
-        this.footer = 'Scooby-Dooby-Doo, Where Are You?';
+        this.footer = 'Scooby-Dooby-Doooo';
     }
     AppComponent = __decorate([
         //Import decorator dependencies
