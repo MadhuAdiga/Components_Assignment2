@@ -2,10 +2,11 @@ import { Component } from '@angular/core';//Import decorator dependencies
 
 @Component({
   selector: 'my-app',//selector
-  template: ` <h3> This is the parent Component</h3>
+  template: ` <h2>Components: Assignment 2</h2><br><br>
+              <h4> This is the parent Component</h4><br>
 
               <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click to view child component</button>
+              <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">Click to view child component</button>
               
               <child [child_header]="header" [child_body]="body" [child_footer]="footer"></child>`, //use child selector and pass content to the modal component through 3 variables
               

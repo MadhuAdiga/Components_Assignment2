@@ -19,7 +19,7 @@ var AppComponent = (function () {
         //Import decorator dependencies
         core_1.Component({
             selector: 'my-app',
-            template: " <h3> This is the parent Component</h3>\n\n              <!-- Trigger the modal with a button -->\n              <button type=\"button\" class=\"btn btn-info btn-lg\" data-toggle=\"modal\" data-target=\"#myModal\">Click to view child component</button>\n              \n              <child [child_header]=\"header\" [child_body]=\"body\" [child_footer]=\"footer\"></child>",
+            template: " <h2>Components: Assignment 2</h2><br><br>\n              <h4> This is the parent Component</h4><br>\n\n              <!-- Trigger the modal with a button -->\n              <button type=\"button\" class=\"btn btn-info btn-md\" data-toggle=\"modal\" data-target=\"#myModal\">Click to view child component</button>\n              \n              <child [child_header]=\"header\" [child_body]=\"body\" [child_footer]=\"footer\"></child>",
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
